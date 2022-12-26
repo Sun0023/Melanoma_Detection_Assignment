@@ -1,4 +1,4 @@
-Melanoma Detection Assignment
+#Melanoma Detection Assignment
 
 To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 Table of Contents
@@ -13,12 +13,13 @@ Data Reading/Data Understanding → Defining the path for train and test images 
 
 Which class has the least number of samples?
 Which classes dominate the data in terms of the proportionate number of samples? Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library. Model Building & training on the rectified class imbalance data : Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1). Choose an appropriate optimiser and loss function for model training Train the model for ~30 epochs Write your findings after the model fit, see if the issues are resolved or not?
-Technologies Used
+#Technologies Used
 
 Python
 tensorflow - keras
 matplotlib
-Conclusions
+
+#Conclusions
 
 Conclusion 1 from the model 1
 The accuracy of the model for the Training data set is 88.23%. But the Validation accuracy between 54.14% only.
@@ -34,7 +35,7 @@ We need to relook at the data and then train the model.
 Conclusion 3 from the model 3
 So we can conclude that class imbalance helped in improving the model performance with 3 convolution layers, pooling layers, flatten and dense layers.
 
-Acknowledgements
+#Acknowledgements
 
 Give credit here.
 
